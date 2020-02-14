@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E.-Restaurant.com</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="/img/2.svg"> -->
+    <!-- font-asom icon cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- font-asom icon cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+          <!-- animation cdn -->
+</head>
+<body>    <div class="back"></div>
+
+    <div class="navegation">
+        <nav>
+            <div class="logo">
+                <img src="/img/2.svg" alt="">
+            </div>
+            <span onClick="myFuction()">&#9776;</span>
+            <ul id="manu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Catageris <i class="fa fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="#breakfast">breakfast</a></li>
+                    <li><a href="#Luanch">Luanch</a></li>
+                    <li><a href="#Dinner">dinner</a></li>
+                </ul>
+            </li>
+                <li><a href="#contant">Contant</a></li>
+                <li><a href="#contact">Contactus</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<!-- background contant  -->
+    <div class="co">
+        <h1 class="animated  fadeInLeftBig delay-0.5s">Wellcome To my Restaurant</h1><br><br>
+        <a href="#" class="a1">Click To manu</a>
+    </div>
+    
+</div>
+<!-- mnau -->
+<div class="manu" id="manu2">
+    <div class="manu1" id="break">
+       <h2>breakfast</h2> 
+       <h5>Bacon.</h5>
+       <h5>Hash browns.</h5>
+       <h5>Belgian Waffles.</h5>
+       <h5>Scrambled eggs.</h5>
+    </div>
+    <div class="manu1" id="luanch">
+        <h2>Luanch</h2>
+       <h5>Brunch Recipes</h5> 
+       <h5>Amazingly Quick</h5>
+       <h5>Brunch Recipes</h5> 
+       <h5>Amazingly Quick</h5>
+    </div>
+    <div class="manu1" id="dinner">
+        <h2>dinner</h2>
+        <h5>Fall Chicken</h5>
+        <h5>Instant Pot Chicken Breasts</h5>
+        <h5>Keto Fried Chicken</h5>
+        <h5>Appale</h5>
+    </div>
+</div>
+<!-- mnau End -->
+    <div class="item">
+    <!-- breakfast -->
+    <div class="break" id="breakfast">
+        <div class="t">
+        <img src="item/break1.jpg" alt="">
+        <h4>Bacon. $20</h4>
+    </div>
+    <div class="t">
+        <img src="/item/break2.jpg" alt="">
+        <h4>Hash browns. $20</h4>
+    </div>
+    <div class="t">
+        <img src="/item/break3.jpg" alt="">
+        <h4>Belgian Waffles. $100</h4>
+    </div>
+    </div>
+    <!-- breakfast End -->
+
+    <!-- luanch  -->
+    <div class="luanch" id="Luanch">
+    <div class="t">
+        <img src="/img/pizza.jpg" alt="">
+        <h4>Pirzze. 100$</h4>
+    </div>
+    <div class="t">
+        <img src="/item/beef-chicken.jpg" alt="">
+        <h4>Chicken rote. 120$</h4>
+        </div>
+        <div class="t">
+        <img src="/item/chicken fall.jpg" alt="">
+        <h4>Chicken beef. 150$</h4>
+        </div>
+    </div>
+    <!-- luanch End -->
+    <!-- Dinner -->
+    <div class="Dinner" id="Dinner">
+        <div class="t">
+        <img src="/img/food-dinner-lunch.jpg" alt="">
+        <h4>Fall Chicken. 55$</h4>
+        </div>
+        <div class="t">
+        <img src="/item/cooked-chicken.jpg" alt="">
+        <h4>Fall Chicken. 200$</h4>
+        </div>
+        <div class="t">
+        <img src="/item/burger-vegetables.jpg" alt="">
+        <h4>Chicken Barger. 110$</h4>
+        </div>
+    </div>
+    <!-- Dinner End -->
+</div>
+    <div class="contant" id="contant">
+        <div class="con">
+        <h2>Chicken <i class="fa fa-cubes 3x"></i></h2><br>
+        <img src="/img/chek.jpg" alt=""><br>
+        <h4><pre>You don’t need to be a pro in the kitchen
+         to whip up these delicious chicken dinners. 
+         Even beginner cooks will find that these no-sweat 
+         recipes come together with ease.</pre></h4><br>
+        </div>
+        <div class="form">
+        <form action="#" method="POST">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" required><br><br>
+            <label>Last Name</label>
+            <input type="text" placeholder="First Name" required><br><br>
+            <label>User Name</label>
+            <input type="text" placeholder="User Name" required><br><br>
+            <label>E-mail</label>
+            <input type="email" placeholder="User E-mail" required><br><br>
+            <label>Password</label>
+            <input type="password" placeholder="User Password" required><br><br><br>
+            <a href="#" class="bt" required>Submit</a>
+        </form>
+    </div>
+        </div>
+<div class="contact" id="contact">
+    <pre>
+    Address: Cox's Bazar Road, Chittagong
+    Hours: 12Rgk Rode.
+    Open ⋅ Closes 10PM
+    Phone: 01713-124688
+</pre>
+</div>
+<div class="footer">
+    <h4>E-Restaurant.com@</h4>
+</div>
+<div class="scroll">
+    <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+</div>
+    <!-- Script us  -->
+<!-- <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/e982cc058195f33e9e39f777b1574e11d581b06d537dad4c3d6e3cfd8c078d44.js"></script> -->
+<script>
+    function myFuction(){
+        var x =document.getElementById("manu");
+
+        if(x.style.display == "block")
+        {
+            x.style.display = "none";
+        }
+        else{
+            x.style.display = "block";
+        }
+    }
+        //Get the button:
+        mybutton = document.getElementById("mybtn");
+    //window
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display ="block";
+        }
+        else{
+            mybutton.style.display ="none";
+        }
+    }
+
+    function topFunction(){
+        document.body.scrollTop =0; //for safari
+        document.documentElement.scrollTop =0;
+    }
+    </script>
+</body>
+</html>
